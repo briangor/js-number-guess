@@ -1,0 +1,22 @@
+.tutorial {
+  border: 1px solid gray;
+}
+
+.btn {
+  border: 1px solid gray;
+  width: 6em;
+  height: 3em;
+  cursor: pointer;
+}
+
+.input {
+  border: 1px solid gray;
+  width: 12em;
+  height: 3em;
+}
+.input:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

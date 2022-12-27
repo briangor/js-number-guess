@@ -1,0 +1,21 @@
+.tutorial {
+    border: 1px solid gray;
+}
+
+.btn {
+    border: 1px solid gray;
+    width: 6em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.input {
+    border: 1px solid gray;
+    width: 12em;
+    height: 3em;
+
+    &:focus {
+        border: 1px solid blue;
+        outline: none;
+    }
+}

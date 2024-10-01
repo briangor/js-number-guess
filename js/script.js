@@ -107,7 +107,7 @@ let checkTarget = () => {
     } else if ( val < target ) {
         search_msg.textContent = 'Your guess is low';
     } else {
-        search_msg.textContent = 'Congratulations! You have guessed the correct number!';
+        search_msg.textContent = `Congratulations! You have guessed the correct number! it's ${target}`;
         search_btn.setAttribute('disabled', '');
         search_start.removeAttribute('disabled');
         search_count.innerHTML = '';
@@ -117,3 +117,5 @@ let checkTarget = () => {
 }
 
 search_btn.addEventListener('click', checkTarget);
+
+//todo: improve the game ui
